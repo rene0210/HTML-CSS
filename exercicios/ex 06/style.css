@@ -1,0 +1,21 @@
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkslategray;
+    padding: 10px 20px;
+    margin: 20px auto 40px auto;
+    outline: 5px dashed salmon;
+}
+
+a {
+    /* inline-level*/
+
+    display: inline-block;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    padding:10px
+}

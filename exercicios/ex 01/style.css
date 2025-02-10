@@ -1,0 +1,58 @@
+body {
+    font-family: 'work Sans'Arial, Helvetica, sans-serif;
+    /* 
+    Medidas Absolutas;
+    cm = Centimetros
+    mm = Milimetros
+    in = Polegadas
+    px = Pixel
+    pt = Ponto
+    pc = Paica
+
+    Medidas Relativas;
+    em = Tamanho atual da fonte.
+    ex = Altura X de uma fonte.
+    rem = Fonte esta configurada no body
+    vw = Largura da tela ou % viewport
+    vh = Altura da tela ou % viewport
+
+    16px geralmente = 1em
+    */
+    
+    font-size: 1em ;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    
+    /* 
+    weight(Peso), 
+    width(largura), 
+    height(altura). 
+    */
+
+    /*
+    lighter(Leve), 
+    normal (Padrão), 
+    bold(Forte),
+    bolder(extremamente Forte).
+    */
+
+    /*
+    Variação numerica entre,
+    (100-900)
+    */
+
+}
+
+h1 {
+    /* 
+    shorthand;
+
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic, bolder 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+}

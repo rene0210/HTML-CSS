@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+HTML= ID | CSS= # (SO PODE UTILIZAR UMA VEZ)
+HTML= CLASS| CSS = . (Quantas vezess quiser)
+*/
+
+body {
+    background-color: rgb(200, 240, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(66, 133, 0);
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2 {
+    color: rgb(44, 87, 1);
+}
+
